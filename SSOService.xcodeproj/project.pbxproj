@@ -17,6 +17,7 @@
 		C7145A3C1BE8A0CA009B3E43 /* SSOService.m in Sources */ = {isa = PBXBuildFile; fileRef = C7145A3B1BE8A0CA009B3E43 /* SSOService.m */; };
 		C7145A491BE8A7F3009B3E43 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7145A481BE8A7F3009B3E43 /* Tests.m */; };
 		C7145A4B1BE8A7F4009B3E43 /* libSSOService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7145A361BE8A0CA009B3E43 /* libSSOService.a */; };
+		C7F7E5FD1BF1A81D00E18DDD /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = C7F7E5FC1BF1A81D00E18DDD /* CHANGELOG.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		C7145A461BE8A7F3009B3E43 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7145A481BE8A7F3009B3E43 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		C7145A4A1BE8A7F3009B3E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F7E5FB1BF1A68900E18DDD /* SSOService-OSX.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSOService-OSX.podspec"; sourceTree = "<group>"; };
+		C7F7E5FC1BF1A81D00E18DDD /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				C70B09321BEC9A6B0027BA82 /* README.md */,
+				C7F7E5FC1BF1A81D00E18DDD /* CHANGELOG.md */,
+				C7F7E5FB1BF1A68900E18DDD /* SSOService-OSX.podspec */,
 				C7145A381BE8A0CA009B3E43 /* SSOService */,
 				C7145A471BE8A7F3009B3E43 /* Tests */,
 				C710416B1BF05D8D00CF1A75 /* Demo-OSX */,
@@ -288,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7145A3C1BE8A0CA009B3E43 /* SSOService.m in Sources */,
+				C7F7E5FD1BF1A81D00E18DDD /* CHANGELOG.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

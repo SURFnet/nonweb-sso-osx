@@ -34,6 +34,8 @@
     [SSOService authorizeForEndpoint:@"https://nonweb.demo.surfconext.nl/php-oauth-as/authorize.php" consumerId:@"4dca00da67c692296690e90c50c96b79" state:@"demo" delegate:self];
 }
 
+#pragma mark - SSOAuthorizationDelegate
+
 - (void)authorizationDidSucceedWithToken:(NSString * _Nonnull)token {
     NSAlert *alert = [[NSAlert alloc] init];
     alert.messageText = NSLocalizedString(@"Authorization succeeded", @"");
