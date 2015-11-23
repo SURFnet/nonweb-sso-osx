@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C71041691BF05D8D00CF1A75"
-               BuildableName = "Demo-OSX.app"
-               BlueprintName = "Demo-OSX"
+               BuildableName = "Sample-OSX.app"
+               BlueprintName = "Sample-OSX"
                ReferencedContainer = "container:SSOService.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C71041691BF05D8D00CF1A75"
-            BuildableName = "Demo-OSX.app"
-            BlueprintName = "Demo-OSX"
+            BuildableName = "Sample-OSX.app"
+            BlueprintName = "Sample-OSX"
             ReferencedContainer = "container:SSOService.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C71041691BF05D8D00CF1A75"
-            BuildableName = "Demo-OSX.app"
-            BlueprintName = "Demo-OSX"
+            BuildableName = "Sample-OSX.app"
+            BlueprintName = "Sample-OSX"
             ReferencedContainer = "container:SSOService.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C71041691BF05D8D00CF1A75"
-            BuildableName = "Demo-OSX.app"
-            BlueprintName = "Demo-OSX"
+            BuildableName = "Sample-OSX.app"
+            BlueprintName = "Sample-OSX"
             ReferencedContainer = "container:SSOService.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
