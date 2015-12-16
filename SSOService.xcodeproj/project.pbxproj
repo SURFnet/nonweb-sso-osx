@@ -52,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		C70B09321BEC9A6B0027BA82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C710416A1BF05D8D00CF1A75 /* Demo-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C710416A1BF05D8D00CF1A75 /* Sample-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C710416C1BF05D8D00CF1A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C710416D1BF05D8D00CF1A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C71041701BF05D8D00CF1A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C710416B1BF05D8D00CF1A75 /* Demo-OSX */ = {
+		C710416B1BF05D8D00CF1A75 /* Sample-OSX */ = {
 			isa = PBXGroup;
 			children = (
 				C710416C1BF05D8D00CF1A75 /* AppDelegate.h */,
@@ -110,7 +110,7 @@
 				C710417A1BF05D8D00CF1A75 /* Info.plist */,
 				C710416F1BF05D8D00CF1A75 /* Supporting Files */,
 			);
-			path = "Demo-OSX";
+			path = "Sample-OSX";
 			sourceTree = "<group>";
 		};
 		C710416F1BF05D8D00CF1A75 /* Supporting Files */ = {
@@ -129,7 +129,7 @@
 				C7F7E5FB1BF1A68900E18DDD /* SSOService-OSX.podspec */,
 				C7145A381BE8A0CA009B3E43 /* SSOService */,
 				C7145A471BE8A7F3009B3E43 /* Tests */,
-				C710416B1BF05D8D00CF1A75 /* Demo-OSX */,
+				C710416B1BF05D8D00CF1A75 /* Sample-OSX */,
 				C7145A371BE8A0CA009B3E43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			children = (
 				C7145A361BE8A0CA009B3E43 /* libSSOService.a */,
 				C7145A461BE8A7F3009B3E43 /* Tests.xctest */,
-				C710416A1BF05D8D00CF1A75 /* Demo-OSX.app */,
+				C710416A1BF05D8D00CF1A75 /* Sample-OSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C71041691BF05D8D00CF1A75 /* Demo-OSX */ = {
+		C71041691BF05D8D00CF1A75 /* Sample-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C710417D1BF05D8D00CF1A75 /* Build configuration list for PBXNativeTarget "Demo-OSX" */;
+			buildConfigurationList = C710417D1BF05D8D00CF1A75 /* Build configuration list for PBXNativeTarget "Sample-OSX" */;
 			buildPhases = (
 				C71041661BF05D8D00CF1A75 /* Sources */,
 				C71041671BF05D8D00CF1A75 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				C710417F1BF0602A00CF1A75 /* PBXTargetDependency */,
 			);
-			name = "Demo-OSX";
+			name = "Sample-OSX";
 			productName = "Demo-OSX";
-			productReference = C710416A1BF05D8D00CF1A75 /* Demo-OSX.app */;
+			productReference = C710416A1BF05D8D00CF1A75 /* Sample-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7145A351BE8A0C9009B3E43 /* SSOService */ = {
@@ -253,7 +253,7 @@
 			targets = (
 				C7145A351BE8A0C9009B3E43 /* SSOService */,
 				C7145A451BE8A7F3009B3E43 /* Tests */,
-				C71041691BF05D8D00CF1A75 /* Demo-OSX */,
+				C71041691BF05D8D00CF1A75 /* Sample-OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -338,10 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Demo-OSX/Info.plist";
+				INFOPLIST_FILE = "Sample-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.surfnet.Demo-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.surfnet.Sample-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -353,10 +353,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Demo-OSX/Info.plist";
+				INFOPLIST_FILE = "Sample-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "nl.surfnet.Demo-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.surfnet.Sample-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -485,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C710417D1BF05D8D00CF1A75 /* Build configuration list for PBXNativeTarget "Demo-OSX" */ = {
+		C710417D1BF05D8D00CF1A75 /* Build configuration list for PBXNativeTarget "Sample-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C710417B1BF05D8D00CF1A75 /* Debug */,
