@@ -22,6 +22,19 @@ alternatively, add the code from the SSOService folder into your project directl
 ### 2. Register URL scheme
 
 In the Info.plist of your app, add an entry in CFBundleURLTypes with the value for CFBundleURLSchemes set to the one registered with Surfnet.
+This should look something similar like this:
+
+    <key>CFBundleURLTypes</key>
+    <array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sfoauth</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>sf<YourRedirectUriHere></string>
+		</dict>
+    </array>
 
 ### 3. Showing authorization screen
 
@@ -32,6 +45,12 @@ When you want to let the user login, create an authorization view controller and
     }
 
 You should also implement a few delegate callback methods.
+
+add the `SSOAuthorizationViewControllerDelegate` to your class, f.e.:
+
+    @interface ViewController () <SSOAuthorizationViewControllerDelegate>
+    
+Implement the delegate callbacks:
 
     #pragma mark - SSOAuthorizationDelegate
 
