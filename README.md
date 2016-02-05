@@ -5,6 +5,7 @@ Now you can easily integrate the [SURFnet](https://www.surf.nl) SSO process flow
 
 If you want to see it in action, check out the sample app in this repository.
 
+For background information and investigation into the best practices that were implemented in this SDK, see [this page](https://github.com/SURFnet/nonweb-demo/wiki/OSX).
 
 HOW TO USE THE LIBRARY
 -----
