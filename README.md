@@ -5,6 +5,7 @@ Now you can easily integrate the [SURFnet](https://www.surf.nl) SSO process flow
 
 If you want to see it in action, check out the sample app in this repository.
 
+For background information and investigation into the best practices that were implemented in this SDK, see [this page](https://github.com/SURFnet/nonweb-demo/wiki/OSX).
 
 HOW TO USE THE LIBRARY
 -----
@@ -22,6 +23,19 @@ alternatively, add the code from the SSOService folder into your project directl
 ### 2. Register URL scheme
 
 In the Info.plist of your app, add an entry in CFBundleURLTypes with the value for CFBundleURLSchemes set to the one registered with Surfnet.
+This should look something similar like this:
+
+    <key>CFBundleURLTypes</key>
+    <array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sfoauth</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>sf<YourRedirectUriHere></string>
+		</dict>
+    </array>
 
 ### 3. Showing authorization screen
 
@@ -32,6 +46,12 @@ When you want to let the user login, create an authorization view controller and
     }
 
 You should also implement a few delegate callback methods.
+
+add the `SSOAuthorizationViewControllerDelegate` to your class, f.e.:
+
+    @interface ViewController () <SSOAuthorizationViewControllerDelegate>
+    
+Implement the delegate callbacks:
 
     #pragma mark - SSOAuthorizationDelegate
 
